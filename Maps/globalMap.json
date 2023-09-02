@@ -1,0 +1,44 @@
+{
+  "globalMap": {
+    "player": {
+      "startPos": {"x": 5, "y": 5},
+      "components": {
+        "Drawer": {"symb": "nl"},
+        "DistanceCollider": {},
+        "RigidBody": {},
+        "Player": {"speed": 1}
+      }
+    },
+    "dollar": {
+      "startPos": {"x": 0, "y": 1},
+      "parent": "player",
+      "components": {
+        "Drawer": {"symb": "$", "color": "Yellow"}
+      }
+    },
+    "box": {
+      "startPos": {"x": 10, "y": 10},
+      "components": {
+        "Drawer": {"symb": "D"},
+        "DistanceCollider": {},
+        "Box": {}
+      }
+    },
+    "enem": {
+      "startPos": {"x": 10, "y": 8},
+      "components": {
+        "Drawer": {"symb": "nl"},
+        "DistanceCollider": {},
+        "RigidBody": {},
+        "Enemy": {"speed": 0.5}
+      }
+    },
+    "MainCamera": {
+      "startPos": {"x": 20, "y": 7},
+      "tag": "MainCamera",
+      "components": {
+        "Camera": {"draw_layers": {"type_of": "int", "_list": [0]}}
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "HEIGHT": 15,
+  "WIDTH": 36,
+  "MAP": "main_map",
+  "COLLISION SUBSTEPS": 1,
+  "RIGIDBODY SUBSTEPS": 1,
+  "FPS": 15,
+  "FIXED REPETITIONS": 0.02,
+  "LOG DRAW CALLS": true,
+  "USE RECURSION": true
+}

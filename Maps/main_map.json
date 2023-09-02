@@ -1,0 +1,47 @@
+{
+    "main_map": {
+        "player": {
+            "startPos": { "x": 0, "y": 0 },
+            "tag": "Player",
+            "enabled": true,
+            "layer": 0,
+            "components": {
+                "Drawer": { "symb": "5", "color": "" },
+                "Player": { "speed": 0.5 },
+                "BoxCollider": { "width": 1 , "height": 1 },
+                "RigidBody": {}
+            }
+        },
+        "dollar": {
+            "startPos": { "x": 2, "y": 1 },
+            "tag": "",
+            "enabled": false,
+            "layer": 0,
+            "parent": "player",
+            "components": {
+                "Drawer": { "symb": "A", "color": "" }
+            }
+        },
+        "box": {
+            "startPos": { "x": 2, "y": 5 },
+            "tag": "",
+            "enabled": true,
+            "layer": 0,
+            "components": {
+                "Drawer": { "symb": "B", "color": "" },
+                "BoxCollider": { "width": 1 , "height": 1 }
+            }
+        },
+        "MainCamera": {
+            "startPos": { "x": 0, "y": 0 },
+            "tag": "MainCamera",
+            "enabled": true,
+            "layer": 0,
+            "components": {
+                "Camera": {
+                    "draw_layers": { "type_of": "int", "_list": [0, 1] }
+                }
+            }
+        }
+    }
+}
