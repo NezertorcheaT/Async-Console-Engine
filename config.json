@@ -6,6 +6,6 @@
   "RIGIDBODY SUBSTEPS": 1,
   "FPS": 15,
   "FIXED REPETITIONS": 0.02,
-  "LOG DRAW CALLS": true,
+  "LOG DRAW CALLS": false,
   "USE RECURSION": true
 }
